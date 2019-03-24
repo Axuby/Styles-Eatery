@@ -1,0 +1,150 @@
+body{
+    padding-top: 5rem;
+    position:relative;
+}
+.starter-template{
+    padding: 3rem 1.5rem;
+        text-align:center;
+}
+
+/*carousel*/
+.carousel-caption {
+     padding-bottom: 15%;
+}
+.carousel-caption h5 {
+    font-size: 42px;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 18px;
+    color: aliceblue;
+}
+/*Navbar*/
+.active{
+    border-bottom: 2px solid white   ;
+}
+.nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #007bff;
+}
+/*button*/
+.btn-primary{
+ background-color: #0069d9;
+  border: 2px solid #0069d9;
+    width: 220px;
+}
+.btn-primary:hover{
+    background-color: transparent; 
+    border: 2px solid #0069d9; 
+}
+.btn-primary:active{
+    background-color: transparent !important;
+    border: 2px solid #0069d9 !important; 
+    box-shadow: 2px 2px #444;
+}
+/*specials*/
+.specials {
+    background-color: #2b2b2b;
+    padding: 50px 20px;
+}
+.specials  h4{
+    color: antiquewhite;
+}
+/* team*/
+#team{
+    padding: 50px 10px;
+        background:linear-gradient(#0069d9,#19a4ba);
+}
+/*menu*/
+#menu{
+    padding: 50px 10px;
+}
+.card{
+  box-shadow: 2px 5px 20px  #777;   
+}
+
+.modal-content{
+    background:#0069d9; 
+}
+.mn{
+    color: #fff;
+}
+/* parallax*/
+#plx{
+    background: url(../img/alcohol-bar-beer-1283219.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wtitle{
+    padding: 150px  20px;
+}
+.wtitle h2{
+   font-weight: bold;
+    font-size: 34px
+}
+/* wine list*/
+#Wines{
+    padding: 100px 20px;
+    background: #0069d9;
+}
+#jumbo{
+    background: #e9ecef;
+}
+/* overlay*/
+.ovl{
+  opacity: 0;
+    transition: 1s;
+}
+.ovl:hover{
+    opacity: 1;
+    background: rgb(0,0,0,0.66);
+}
+#locations{
+    padding: 100px 50px;
+    background: url(../img/alcohol-bar-beer-1283219.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loc img{
+    transition-duration: 1.5s;
+    padding-right: 10px
+}
+.loc img:hover{
+   transform: scale(3,3);
+    box-shadow: 5px 5px 15px #333;
+    z-index: 1;
+    position: absolute;
+}
+
+/*testimonials*/
+#testimonials{
+    background: #2b2b2b;
+}
+.revs{
+    padding: 100px;
+}
+.carousel-inner{
+    min-height: 300px;
+}
+/* video section*/
+#vid{
+ padding: 100px 0px;
+    background-color: #111;
+}
+/*Hiring*/
+.jumbotron{
+    margin-bottom: 0px;
+}
+.hir h1{
+    text-shadow: 5px 5px 10px #555;
+}
